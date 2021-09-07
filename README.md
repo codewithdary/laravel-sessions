@@ -1,4 +1,4 @@
-## Testing in Laravel
+## Sessions in Laravel
 
 The following documentation is based on my [Laravel Sessions for Beginners](https://www.youtube.com/watch?v=UjA-16diixc) tutorial we’re going to cover the basics of sessions in Laravel. <br> <br>
 •	Author: [Code With Dary](https://github.com/codewithdary) <br>
