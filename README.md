@@ -153,7 +153,7 @@ We don’t need to generate the sessions migration ourselves because Artisan all
 php artisan session:table
 ```
 
-This will create a new migration inside the ```/database/migrations``` folder with the name of ```{datetime_create_sessions_table.php```.
+This will create a new migration inside the ```/database/migrations``` folder with the name of ```{datetime}}_create_sessions_table.php```.
 ```ruby 
 Schema::create('sessions', function (Blueprint $table) {
     $table->string('id')->primary();
