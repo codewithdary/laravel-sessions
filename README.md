@@ -77,13 +77,13 @@ public function about()
 You can define a session through the Session Facade or the global session helper. I prefer to use the Session Facade so that’s what we’re going to use in this tutorial.
 
 The two most common methods are ```get()``` and ```put()```. The ```put()``` method allows you to save data, and it accepts two parameters. The first one will be the key, and the second parameter will be the value. The second parameter can also be an array with multiple values.
-``ruby
+```ruby
 Session::put('name', 'John');
 ```
 
 Whenever the ```index()``` method will be called, a new session with a key of name and a value of John will be created. 
 
-In order to retrieve data, we got to use the ```get()`` method. If we navigate to the ```index.blade.php``` file, we could use the Session façade in the same exact way to get a value. Be aware that you always need to provide a key of the session. You can attach a fallback value as well, which can be a string or a closure.
+In order to retrieve data, we got to use the ```get()``` method. If we navigate to the ```index.blade.php``` file, we could use the Session façade in the same exact way to get a value. Be aware that you always need to provide a key of the session. You can attach a fallback value as well, which can be a string or a closure.
 ```ruby
 {{ Session::get('name') }}
 
