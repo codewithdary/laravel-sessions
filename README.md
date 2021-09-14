@@ -31,7 +31,7 @@ DB_PASSWORD=
 Next up, we need to create the database which will be grabbed from the ```DB_DATABASE``` environment variable.
 ```
 mysql;
-create database laravelblog;
+create database laravel_sessions;
 exit;
 ```
 
